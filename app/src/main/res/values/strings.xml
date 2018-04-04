@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Text To Speech</string>
+    <string name="applicant_name">Android Codility</string>
+    <string name="app_info">Android allows you convert your text into voice. Not only you can convert it but it also allows you to speak text in variety of different languages.</string>
+    <string name="text_hint">Enter your text here..</string>
+    <string name="btn_info">Tap button to speak</string>
+    <string name="speak_out">Speak Out</string>
+    <string name="empty_msg">Please enter your message..!!</string>
+</resources>
