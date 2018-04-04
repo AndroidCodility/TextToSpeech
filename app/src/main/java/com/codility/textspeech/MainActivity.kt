@@ -51,4 +51,12 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private fun showMessage(msg: String) {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
     }
+
+    public override fun onDestroy() {
+        if (tts != null) {
+            tts!!.stop()
+            tts!!.shutdown()
+        }
+        super.onDestroy()
+    }
 }
